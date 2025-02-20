@@ -1,19 +1,19 @@
-package pertemuan2;
+package pertemuan3;
 
 public class Node {
-    private int nilai;
+    private int data;
    private Node next;
    // inisialisasi Node
-   public Node(int nilai) {
-       this.nilai = nilai;
+   public Node(int data) {
+       this.data = data;
        this.next = null;
    }
 
-   public void setNilai(int nilai){
-       this.nilai = nilai;
+   public void setNilai(int data){
+       this.data = data;
    }
-   public int getNilai () {
-       return nilai;
+   public int getdata () {
+       return data;
    }
    // Setter & Getter
    public void setNext(Node next) { 
@@ -22,5 +22,5 @@ public class Node {
 
    public Node getNext() { 
        return next;
-   }
+    }
 }
